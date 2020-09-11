@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import PropTypes from "prop-types";
 
 import Logo from "../../../assets/images/logo-won.svg";
 
@@ -21,23 +20,5 @@ const Wrapper = styled.div`
     background-size: 12rem;
   }
 `;
-
-Wrapper.defaultProps = {
-  theme: {
-    main: {
-      colors: {
-        leftMenu: {},
-      },
-      sizes: {
-        header: {},
-        leftMenu: {},
-      },
-    },
-  },
-};
-
-Wrapper.propTypes = {
-  theme: PropTypes.object,
-};
 
 export default Wrapper;
